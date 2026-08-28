@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center"
+    android:padding="28dp" android:background="#111111">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="GRAVADOR DE TELA A17" android:textColor="#FFFFFF"
+        android:textStyle="bold" android:textSize="25sp" android:layout_marginBottom="8dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Edson • gravação de tela com áudio"
+        android:textColor="#BBBBBB" android:textSize="15sp" android:layout_marginBottom="32dp"/>
+
+    <Button android:id="@+id/startBtn" android:layout_width="match_parent"
+        android:layout_height="64dp" android:text="● INICIAR GRAVAÇÃO"
+        android:textSize="17sp"/>
+
+    <Button android:id="@+id/stopBtn" android:layout_width="match_parent"
+        android:layout_height="64dp" android:layout_marginTop="16dp"
+        android:text="■ PARAR E SALVAR" android:textSize="17sp"/>
+
+    <TextView android:id="@+id/status" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="28dp"
+        android:text="Pronto para gravar." android:textColor="#FFFFFF"
+        android:textSize="16sp" android:gravity="center"/>
+</LinearLayout>

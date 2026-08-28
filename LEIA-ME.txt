@@ -1,0 +1,14 @@
+GRAVADOR DE TELA A17
+
+Funções:
+- grava a tela do celular em MP4;
+- grava áudio pelo microfone;
+- salva automaticamente em Movies/GravadorTelaA17;
+- botão iniciar e botão parar/salvar;
+- usa a autorização oficial de captura de tela do Android.
+
+Para gerar o APK:
+1. Extraia este ZIP.
+2. Envie o CONTEÚDO de dentro da pasta para a raiz de um repositório GitHub.
+3. Ações > Gerar APK Gravador Tela A17 > Executar fluxo de trabalho.
+4. Baixe GravadorTelaA17-APK em Artefatos.
